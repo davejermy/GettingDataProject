@@ -88,4 +88,4 @@ library(reshape2)
 ##---------------------
 ## Export Tidy Data Set
 ##---------------------
-  write.csv(tidydata,file = "Tidy Dataset.csv",row.names = F)
+  write.csv(tidydata,file = "Tidy Dataset.txt",row.names = F)

@@ -35,4 +35,4 @@ Running the script will do the following:
 * Aggregate each variable by subject and activity using mean() (during the recast step)
 * Remove all rows that do not relate to either a mean or std variable
 * Tidy up the names of the variables and activities
-* Export the resulting data set into a csv file in your working directory called "Tidy Dataset.csv"
+* Export the resulting data set into a csv file in your working directory called "Tidy Dataset.txt"
