@@ -1,5 +1,6 @@
 # Tidy Dataset Code Book
-This describes the columns in the Tidy Dataset that is created by the run_analysis.R script
+The Tidy Dataset that is created by the run_analysis.R script contains four columns: subject, activity, variable and average.  
+This code book describes each of these columns.
 
 ###Subject
 Integer column  
