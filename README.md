@@ -9,7 +9,7 @@ run_analysis.R
 
 Working Directory Setup
 -----------------------
-The script requires the Samsung data to be downloaded and included in your working directory.  Specifically, the "UCI HAR Dataset" folder should be in your working directory.
+The script requires the Samsung data to be downloaded from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and included in your working directory.  Specifically, the "UCI HAR Dataset" folder should be in your working directory.
 
 The Raw Data
 ------------
