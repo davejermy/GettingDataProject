@@ -6,8 +6,8 @@ Repo for the Project in the Johns Hopkins Getting Data course
 
 Project Contents
 ----------------
-Readme
-[CodeBook.md](https://github.com/davejermy/GettingDataProject/blob/master/CodeBook.md)
+Readme  
+[CodeBook.md](https://github.com/davejermy/GettingDataProject/blob/master/CodeBook.md)  
 run_analysis.R
 
 Working Directory Setup
