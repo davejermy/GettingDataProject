@@ -1,9 +1,28 @@
 # Tidy Dataset Code Book
+This describes the columns in the Tidy Dataset that is created by the run_analysis.R script
 
+###Subject
+Integer column  
+Identifies the person the measurements apply to.  
+Can have values from 1 to 30
 
+###Activity
+Character column of length 18  
+Contains the activity the subject was doing when the measurements making up the average were taken.  
+One of six possible values:
+* Laying
+* Sitting
+* Standing
+* Walking
+* Walking Downstairs
+* Walking Upstairs
 
+###Variable
+Character column of length 23  
+Contains the name of the measurement.  
+The table below shows how the variable names have been altered from those used in the raw data.  
 
-Tidy Dataset Name|Raw Data Name
+Tidy Dataset Variable Name|Raw Data Feature Name
 ---|---
 TimeBodyAccMeanX|tBodyAcc-mean()-X
 TimeBodyAccMeanY|tBodyAcc-mean()-Y
@@ -71,3 +90,9 @@ FreqBodyGyroMagMean|fBodyBodyGyroMag-mean()
 FreqBodyGyroMagStd|fBodyBodyGyroMag-std()
 FreqBodyGyroJerkMagMean|fBodyBodyGyroJerkMag-mean()
 FreqBodyGyroJerkMagStd|fBodyBodyGyroJerkMag-std()
+
+###Average 
+Numeric column  
+
+In generating the final data set, the mean of each measurement is taken by subject and activity and the result ends up in the average column.  
+The measurements in the raw data are normalised [-1,1], so the average column is also normalised [-1,1]
